@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#herobox{
+    background : url('bg.jpg') no-repeat left /cover;
+    padding:200px 0;
+    h1{
+        color: #ff3838;
+        font-weight: bold;
+    }
+}
+ul.icons{
+    list-style: none;
+    li{
+        display: inline-block;
+        margin: 30px;
+        div.icon-box{
+            text-align: center;
+            span.icon{
+                background-color: #ff3838;
+                display: block;
+                width: 100px;
+                height: 100px;
+                border-radius: 90px;
+                margin: auto;
+                i{
+                    font-size: 50px;
+                    line-height: 100px;
+                    color: #fff;
+                }
+            }
+            p{
+                margin-top: 2px;
+            }
+        }
+    }
+}
+small{
+    font-weight: bold;
+    color: #ff3838;
+}
+.bg-primary,
+.btn-primary{
+    background-color: #ff3838 !important;
+}
+.btn-primary{
+    border-color: #ff3838;
+}
